@@ -1,0 +1,7 @@
+# WAP to add 2 numbers input by user and display the result.
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+sum = num1 + num2
+print("The sum is:  ", sum)
