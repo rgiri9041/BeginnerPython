@@ -1,3 +1,6 @@
+#WAP to creat a class vector representing a vectore of n dimension.
+#overload the + and * operators which calculate the sum and dot(.) product of them
+
 class Vector:
     def __init__(self, i, j, k):
         self.i = i
