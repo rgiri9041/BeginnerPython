@@ -1,0 +1,13 @@
+pip install pandas ---> to install pandas
+pip install virtualenv --> to install the virtualenv
+virtualenv env --> creating a new virtual environment and naming it as env
+.\env\Scripts\activate.ps1 ----> to activate the virtual environment. It should be entered in the powershell
+deactivate ---> to deactivate the virtualenv
+
+
+to know which packages are installed in my virtual env then
+pip freeze in the python or vs powershell terminal
+
+to write the packages in a file ---> pip freeze > requirement.txt
+to install all the packages at once which are in the requirement.txxt file 
+pip install -r .\requirement.txt
